@@ -65,7 +65,7 @@ export function initializeRandomSchool(): School {
         //random class name from teacher professions to prevent classes with teachers of wrong profession
         const className:string = getRandomValueFromArray(teacher.professions);
         //randomizing number of students (from 1 up to 30)
-        const randomNumberOfStudents:number = Math.ceil(Math.random()*30);
+        const randomNumberOfStudents:number = Math.ceil(Math.random()*29);
         let arrayOfStudentsInClass:Student[] = [];
         for(let indexOfStudent:number=0;indexOfStudent <= randomNumberOfStudents; indexOfStudent++)
         {
