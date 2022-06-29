@@ -17,15 +17,15 @@ randomSchool.classes.forEach(clas => {
 });
 //console.log(getClassYoungestStudentFullName(randomSchool.classes[0]));
 
-console.log("============");
+/*console.log("============");
 
 console.log("============");
 randomSchool.classes.forEach(clas => {
     console.log(getYoungestStudentByAge(clas));
     console.log("============");
     
-});
+});*/
 
-//transferStudent(randomSchool.classes[0].students[1].fullName(),randomSchool.classes[0],randomSchool.classes[1]);
+transferStudent(randomSchool.classes[0].students[1].fullName(),randomSchool.classes[0],randomSchool.classes[1]);
 
-//printSchool(randomSchool);
+printSchool(randomSchool);
